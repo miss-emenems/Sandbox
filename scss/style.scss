@@ -1,33 +1,5 @@
-.swatch {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 4em;
-}
+@import
+'base'
+,'testTypography'
 
-@import 'colors';
-@import 'detail';
-
-#network {
-  &.set1 {
-    @import 'colorset1';
-  }
-  &.set2 {
-    @import 'colorset2';
-  }
-  &.set3 {
-    @import 'colorset3';
-  }
-}
-
-
-@mixin colors($background, $foreground) {
-  color: $foreground;
-  background: $background;
-}
-
-
-.set1 {
-  @include colors(red, pink);
-}
-
-
+;
