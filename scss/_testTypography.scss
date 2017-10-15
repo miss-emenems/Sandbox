@@ -36,6 +36,10 @@ h1, h2, h3, p {
   margin-bottom: 1em;
   background:  #eee;
   padding: 1em;
+  .child {
+    padding: 1em;
+    background: #ddd;
+  }
 }
 .rem {
   .parent {

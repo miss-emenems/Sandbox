@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72726d7d-74a6-4df9-9d67-bbd8bfe108ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b8adf51d0711d3a23f66382ddccb2e2b3966e672/_base.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b8adf51d0711d3a23f66382ddccb2e2b3966e672/_base.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/b8adf51d0711d3a23f66382ddccb2e2b3966e672/_testTypography.scssc" afterPath="$PROJECT_DIR$/.sass-cache/b8adf51d0711d3a23f66382ddccb2e2b3966e672/_testTypography.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head.php" afterPath="$PROJECT_DIR$/head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_base.scss" afterPath="$PROJECT_DIR$/scss/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_testTypography.scss" afterPath="$PROJECT_DIR$/scss/_testTypography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typography.php" afterPath="$PROJECT_DIR$/typography.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -102,8 +98,8 @@
           <file leaf-file-name="_testTypography.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_testTypography.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
-                  <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+                <state relative-caret-position="392">
+                  <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -285,12 +281,12 @@
       <updated>1508078976554</updated>
       <workItem from="1508078977775" duration="744000" />
       <workItem from="1508081755149" duration="449000" />
-      <workItem from="1508082234409" duration="5130000" />
+      <workItem from="1508082234409" duration="5676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6323000" />
+    <option name="totallyTimeSpent" value="6869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -433,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_testTypography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="392">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
           <folding />
         </state>
       </provider>
