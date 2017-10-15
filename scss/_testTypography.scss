@@ -32,10 +32,25 @@ h1, h2, h3, p {
   margin-bottom: 2rem;
 }
 
+.scale {
+  margin-bottom: 1em;
+  background:  #eee;
+  padding: 1em;
+}
+.rem {
+  .parent {
+    font-size: 2rem;
+    .child {
+      font-size: 2rem;
+    }
+  }
+}
 
-.parent {
-  font-size: 1rem;
-  .child {
-    font-size: 2em;
+.em {
+  .parent {
+    font-size: 2rem;
+    .child {
+      font-size: 2em;
+    }
   }
 }

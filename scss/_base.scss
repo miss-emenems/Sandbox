@@ -1,6 +1,11 @@
 body {
   font-family: "Open Sans", Sans-Serif, Helvetica;
 }
+.mq-info {
+  padding: 1rem;
+  background-color: aliceblue;
+  margin-bottom: 2rem;
+}
 .mq-info span:after {
   @include mq($until: b1) {
     content: '< b1';
@@ -14,4 +19,8 @@ body {
   @include mq($from: b3) {
     content: '> b3';
   }
+}
+
+.test-body {
+  padding: 1rem;
 }

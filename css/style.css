@@ -1,6 +1,11 @@
 body {
   font-family: "Open Sans", Sans-Serif, Helvetica; }
 
+.mq-info {
+  padding: 1rem;
+  background-color: aliceblue;
+  margin-bottom: 2rem; }
+
 @media (max-width: 46.24em) {
   .mq-info span:after {
     content: '< b1'; } }
@@ -13,6 +18,9 @@ body {
 @media (min-width: 81.25em) {
   .mq-info span:after {
     content: '> b3'; } }
+
+.test-body {
+  padding: 1rem; }
 
 @media (max-width: 46.24em) {
   html {
@@ -49,9 +57,19 @@ h1, h2, h3, p {
   border: 1px solid grey;
   margin-bottom: 2rem; }
 
-.parent {
-  font-size: 1rem; }
-  .parent .child {
+.scale {
+  margin-bottom: 1em;
+  background: #eee;
+  padding: 1em; }
+
+.rem .parent {
+  font-size: 2rem; }
+  .rem .parent .child {
+    font-size: 2rem; }
+
+.em .parent {
+  font-size: 2rem; }
+  .em .parent .child {
     font-size: 2em; }
 
 /*# sourceMappingURL=style.css.map */
