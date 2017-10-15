@@ -1,4 +1,57 @@
 body {
   font-family: "Open Sans", Sans-Serif, Helvetica; }
 
+@media (max-width: 46.24em) {
+  .mq-info span:after {
+    content: '< b1'; } }
+@media (min-width: 46.25em) and (max-width: 61.24em) {
+  .mq-info span:after {
+    content: 'b1 - b2'; } }
+@media (min-width: 61.25em) and (max-width: 81.24em) {
+  .mq-info span:after {
+    content: 'b2 - b3'; } }
+@media (min-width: 81.25em) {
+  .mq-info span:after {
+    content: '> b3'; } }
+
+@media (max-width: 46.24em) {
+  html {
+    font-size: 12px; } }
+@media (min-width: 46.25em) and (max-width: 61.24em) {
+  html {
+    font-size: 14px; } }
+@media (min-width: 61.25em) and (max-width: 81.24em) {
+  html {
+    font-size: 16px; } }
+@media (min-width: 81.25em) {
+  html {
+    font-size: 20px; } }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.6rem; }
+
+h3 {
+  font-size: 1.2rem; }
+
+p {
+  font-size: 1rem; }
+
+h1, h2, h3, p {
+  line-height: 1;
+  margin: 0; }
+
+.box {
+  font-size: 2em;
+  padding: 1em;
+  border: 1px solid grey;
+  margin-bottom: 2rem; }
+
+.parent {
+  font-size: 1rem; }
+  .parent .child {
+    font-size: 2em; }
+
 /*# sourceMappingURL=style.css.map */

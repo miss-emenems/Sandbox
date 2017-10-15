@@ -1,7 +1,7 @@
 <nav>
     <ul class="nav">
         <li>
-            <a href="test-typography">Typography</a>
+            <a href="typography.php">Typography</a>
         </li>
     </ul>
 </nav>

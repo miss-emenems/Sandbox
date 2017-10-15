@@ -1,3 +1,17 @@
 body {
-	font-family: "Open Sans", Sans-Serif, Helvetica;
+  font-family: "Open Sans", Sans-Serif, Helvetica;
+}
+.mq-info span:after {
+  @include mq($until: b1) {
+    content: '< b1';
+  }
+  @include mq($from: b1, $until: b2) {
+    content: 'b1 - b2';
+  }
+  @include mq($from: b2, $until: b3) {
+    content: 'b2 - b3';
+  }
+  @include mq($from: b3) {
+    content: '> b3';
+  }
 }
