@@ -15,28 +15,35 @@ $(document).ready(function(){
     const indicatorPosition = $('#checkPosition').offset().top;
     console.log("indicators initial position:", indicatorPosition);
 
-    var totalScroll;
+    var myFunction = function(){
+      $('#targetElement').append('new text goes here only once. ');
+      console.log("call me only once");
+    }
+
+    $(window).scroll(function(){
+        var totalScroll = $(window).scrollTop();
+        if (totalScroll > indicatorPosition) {
+          myFunction();
+        }
+    });
+
+    //var totalScroll;
 
     function getScrollValue(totalScroll) {
       var checkScroll;
       window.addEventListener('scroll', function() {
           //console.log('scrolling');
       });
-      $(window).scroll(checkScroll, function(){
-          var checkScroll = window.scrollY;
-          //console.log("scrolled:", checkScroll);
-      });
+
       return {
           checkScroll: totalScroll
       }
     }
 
-    getScrollValue();
-    console.log("scrolled:", totalScroll);
+    //getScrollValue();
+    //console.log("scrolled:", totalScroll);
 
-/*  if (totalScroll > indicatorPosition) {
 
-  }*/
 
 
 
