@@ -1,5 +1,5 @@
 <nav>
-    <ul class="nav">
+    <ul class="navigation">
         <li>
             <a href="typography.php">Typography</a>
         </li>

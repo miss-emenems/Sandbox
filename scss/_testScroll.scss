@@ -1,0 +1,22 @@
+.section {
+  padding: 3em;
+  min-height: 1000px;
+  &--1 {
+    background-color: lightcyan;
+  }
+
+}
+
+.indicator {
+  background-color: darkcyan;
+  color: white;
+  padding: 1em;
+  margin: 1em 0 30em;
+}
+
+.target {
+  background-color: lightslategrey;
+  color: white;
+  padding: 1em;
+  margin: 1em 0;
+}

@@ -22,6 +22,9 @@ body {
 .test-body {
   padding: 1rem; }
 
+.navigation li {
+  display: block; }
+
 @media (max-width: 46.24em) {
   html {
     font-size: 12px; } }
@@ -74,5 +77,23 @@ h1, h2, h3, p {
   font-size: 2rem; }
   .em .parent .child {
     font-size: 2em; }
+
+.section {
+  padding: 3em;
+  min-height: 1000px; }
+  .section--1 {
+    background-color: lightcyan; }
+
+.indicator {
+  background-color: darkcyan;
+  color: white;
+  padding: 1em;
+  margin: 1em 0 30em; }
+
+.target {
+  background-color: lightslategrey;
+  color: white;
+  padding: 1em;
+  margin: 1em 0; }
 
 /*# sourceMappingURL=style.css.map */
