@@ -16,14 +16,25 @@ $(document).ready(function(){
     console.log("indicators initial position:", indicatorPosition);
 
     var myFunction = function(){
-      $('#targetElement').append('new text goes here only once. ');
+      //$('#targetElement').append('new text goes here only once. ');
+      $("#targetElement").circleProgress({
+          value: 0.75,
+          size: 80,
+          fill: {
+              gradient: ["red", "orange"]
+          }
+      });
       console.log("call me only once");
     }
 
+    var check = 1
     $(window).scroll(function(){
         var totalScroll = $(window).scrollTop();
         if (totalScroll > indicatorPosition) {
-          myFunction();
+            if(check === 1){
+                myFunction();
+                check++
+            }
         }
     });
 
