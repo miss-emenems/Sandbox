@@ -10,7 +10,9 @@
     <div class="section section--2">
         <p>Section 2</p>
         <div id="checkPosition" class="indicator">Check position</div>
-        <div id="targetElement" class="target"></div>
+        <div id="targetElement" class="target">
+            <span class="inner-counter"></span>
+        </div>
     </div>
 </div>
 

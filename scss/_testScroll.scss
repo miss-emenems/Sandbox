@@ -4,7 +4,9 @@
   &--1 {
     background-color: lightcyan;
   }
-
+  &--2 {
+    background-color: lightslategrey;
+  }
 }
 
 .indicator {
@@ -15,8 +17,24 @@
 }
 
 .target {
-  background-color: lightslategrey;
-  color: white;
-  padding: 1em;
-  margin: 1em 0;
+  position: relative;
+  width: 160px;
+  .inner-counter {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 50px;
+    color: rgba(white,1);
+    .sign {
+      color: rgba(white,0.5);
+      font-size: 20px;
+    }
+  }
+}
+
+#targetElement {
+
 }

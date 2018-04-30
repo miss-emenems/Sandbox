@@ -18,14 +18,20 @@ $(document).ready(function(){
     var myFunction = function(){
       //$('#targetElement').append('new text goes here only once. ');
       $("#targetElement").circleProgress({
-          value: 0.75,
-          size: 80,
+          value: 0.97,
+          size: 160,
+          thickness: 30,
+          startAngle: Math.PI / 0.67,
           fill: {
-              gradient: ["red", "orange"]
+              gradient: ["#e5a638", "#fafafa"],
+              gradientAngle: Math.PI / -12
           }
-      });
+      }).on('circle-animation-progress', function(event, progress) {
+          $(this).find('.inner-counter').html(Math.round(97 * progress) + '<span class="sign">%</span>');
+      });;
       console.log("call me only once");
     }
+
 
     var check = 1
     $(window).scroll(function(){
