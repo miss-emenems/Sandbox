@@ -12,5 +12,11 @@ $(document).ready(function(){
 
 
 
+  $('.trigger').click(function () {
+    console.log('clicked');
+    $('.target').addClass('active');
+  })
+
+
 
 });

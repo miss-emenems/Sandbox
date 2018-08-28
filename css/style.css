@@ -1,78 +1,124 @@
 body {
-  font-family: "Open Sans", Sans-Serif, Helvetica; }
+  font-family: "Open Sans", Sans-Serif, Helvetica;
+}
 
 .mq-info {
   padding: 1rem;
   background-color: aliceblue;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 @media (max-width: 46.24em) {
   .mq-info span:after {
-    content: '< b1'; } }
+    content: "< b1";
+  }
+}
 @media (min-width: 46.25em) and (max-width: 61.24em) {
   .mq-info span:after {
-    content: 'b1 - b2'; } }
+    content: "b1 - b2";
+  }
+}
 @media (min-width: 61.25em) and (max-width: 81.24em) {
   .mq-info span:after {
-    content: 'b2 - b3'; } }
+    content: "b2 - b3";
+  }
+}
 @media (min-width: 81.25em) {
   .mq-info span:after {
-    content: '> b3'; } }
+    content: "> b3";
+  }
+}
 
 .test-body {
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 @media (max-width: 46.24em) {
   html {
-    font-size: 12px; } }
+    font-size: 12px;
+  }
+}
 @media (min-width: 46.25em) and (max-width: 61.24em) {
   html {
-    font-size: 14px; } }
+    font-size: 14px;
+  }
+}
 @media (min-width: 61.25em) and (max-width: 81.24em) {
   html {
-    font-size: 16px; } }
+    font-size: 16px;
+  }
+}
 @media (min-width: 81.25em) {
   html {
-    font-size: 20px; } }
+    font-size: 20px;
+  }
+}
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 h2 {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+}
 
 h3 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 p {
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 h1, h2, h3, p {
   line-height: 1;
-  margin: 0; }
+  margin: 0;
+}
 
 .box {
   font-size: 2em;
   padding: 1em;
   border: 1px solid grey;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 .scale {
   margin-bottom: 1em;
   background: #eee;
-  padding: 1em; }
-  .scale .child {
-    padding: 1em;
-    background: #ddd; }
+  padding: 1em;
+}
+.scale .child {
+  padding: 1em;
+  background: #ddd;
+}
 
 .rem .parent {
-  font-size: 2rem; }
-  .rem .parent .child {
-    font-size: 2rem; }
+  font-size: 2rem;
+}
+.rem .parent .child {
+  font-size: 2rem;
+}
 
 .em .parent {
-  font-size: 2rem; }
-  .em .parent .child {
-    font-size: 2em; }
+  font-size: 2rem;
+}
+.em .parent .child {
+  font-size: 2em;
+}
+
+.trigger {
+  background-color: lightblue;
+}
+
+.target {
+  background-color: red;
+  position: fixed;
+  top: -100px;
+  transition: all 0.3s ease;
+}
+.target.active {
+  display: block;
+  top: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */

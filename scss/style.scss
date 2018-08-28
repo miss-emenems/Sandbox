@@ -3,4 +3,32 @@
 ,'base'
 ,'testTypography'
 
+
 ;
+
+
+
+.trigger {
+  background-color: lightblue;
+}
+
+
+
+.target {
+
+  //display: none;
+
+  background-color: red;
+
+  position: fixed;
+  top: -100px;
+  transition: all 0.3s ease;
+
+  &.active {
+
+    display: block;
+
+    top: 100px;
+
+  }
+}
